@@ -1,0 +1,38 @@
+# Per-machine GUI settings and user paths
+odb2vtu_config.json
+python_exe.txt
+_selftest_config.json
+# Generated conversion outputs
+*.vtu
+*.pvd
+*_odb2vtu_summary.json
+scan.json
+spec.json
+# Abaqus temporary results (retain only sample/cube.odb)
+*.lck
+*.sim
+*.dat
+*.msg
+*.sta
+*.log
+*.prt
+*.com
+*.ipm
+*.rec
+*.rpy
+*.jnl
+*.abq
+*.pac
+*.sel
+*.res
+*.mdl
+*.stt
+*.odb
+!sample/cube.odb
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
