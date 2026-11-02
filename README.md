@@ -22,7 +22,7 @@ Features:
 3. Select an ODB, scan its contents, choose variables and frames, then convert.
 4. Open the exported VTU/PVD in ParaView.
 
-A small sample Abaqus ODB is packaged in `sample/cube_sample.zip` (extract before use). A [GUI screenshot](docs/screenshot.jpg) is included. Detailed Chinese instructions are in [启动说明.md](启动说明.md).
+A small sample Abaqus ODB is packaged in `sample/cube_sample.zip` (extract before use). A [GUI screenshot](docs/screenshot.jpg) is included.
 
 ## CLI
 
@@ -32,8 +32,6 @@ Run with Abaqus Python:
 SMAPython.exe worker\odb2vtu_worker.py scan case.odb scan.json
 SMAPython.exe worker\odb2vtu_worker.py convert spec.json
 ```
-
-See [启动说明.md](启动说明.md) for the conversion specification and supported output options.
 
 ## Repository hygiene
 
