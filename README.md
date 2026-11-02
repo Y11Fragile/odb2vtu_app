@@ -22,7 +22,7 @@ Features:
 3. Select an ODB, scan its contents, choose variables and frames, then convert.
 4. Open the exported VTU/PVD in ParaView.
 
-A small sample Abaqus ODB is included in `sample/cube.odb`. Detailed Chinese instructions are in [启动说明.md](启动说明.md).
+A small sample Abaqus ODB is packaged in `sample/cube_sample.zip` (extract before use). A [GUI screenshot](docs/screenshot.jpg) is included. Detailed Chinese instructions are in [启动说明.md](启动说明.md).
 
 ## CLI
 
